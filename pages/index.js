@@ -31,6 +31,7 @@ export default function Home () {
     <main className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <Head>
         <title>Marvin Rabe | Laravel Developer</title>
+        <meta name="description" content="Marvin Rabe is a Laravel Developer."/>
       </Head>
 
       <div className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100">
