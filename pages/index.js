@@ -40,7 +40,7 @@ export default function Home () {
       </div>
       <div className="text-4xl lg:text-6xl text-gray-700 dark:text-gray-200 flex gap-4">
         {socialLinks.map((item, index) => (
-          <a key={index} href={item.url} title={item.title} target="_blank">
+          <a key={index} href={item.url} title={item.title} target="_blank" className="hover:opacity-75">
             <span className={`p-2 fab ${item.icon}`}/>
           </a>
         ))}
