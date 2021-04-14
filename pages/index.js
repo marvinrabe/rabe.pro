@@ -30,11 +30,11 @@ export default function Home () {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <Head>
-        <html lang="en" className="min-h-full"/>
         <title>Marvin Rabe | Laravel Developer</title>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
         <script async defer data-domain="rabe.pro" src="https://stats.rabe.pro/js/index.js"/>
+        <html lang="en" className="min-h-full"/>
         <body className="min-h-full bg-gray-200 dark:bg-gray-800"/>
       </Head>
 
