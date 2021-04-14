@@ -42,12 +42,12 @@ export default function Home () {
       </h1>
       <p className="text-xl lg:text-2xl font-light mb-12 text-gray-500 dark:text-gray-400">
         Laravel&nbsp;Developer
-        @&nbsp;<a href="https://nueprice.com/" target="_blank" rel="noopener"
+        @&nbsp;<a href="https://nueprice.com/" rel="noopener"
                   className='underline hover:no-underline transition-opacity hover:opacity-75'>nueprice&nbsp;GmbH</a>
       </p>
       <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-4">
         {socialLinks.map((item, index) => (
-          <a key={index} href={item.url} title={item.title} target="_blank" rel="noreferrer"
+          <a key={index} href={item.url} title={item.title} rel="noreferrer"
              className="p-2 transition-opacity hover:opacity-75">
             <FontAwesomeIcon icon={item.icon} fixedWidth/>
           </a>
