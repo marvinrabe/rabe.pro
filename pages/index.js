@@ -31,11 +31,6 @@ export default function Home () {
     <main className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <Head>
         <title>Marvin Rabe | Laravel Developer</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
-        <script async defer data-domain="rabe.pro" src="https://stats.rabe.pro/js/index.js"/>
-        <html lang="en" className="min-h-full"/>
-        <body className="min-h-full bg-gray-200 dark:bg-gray-800"/>
       </Head>
 
       <div className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100">
@@ -46,7 +41,7 @@ export default function Home () {
         @&nbsp;<a href="https://nueprice.com/" target="_blank" rel="noopener"
                   className='underline hover:no-underline transition-opacity hover:opacity-75'>nueprice&nbsp;GmbH</a>
       </div>
-      <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-3">
+      <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-4">
         {socialLinks.map((item, index) => (
           <a key={index} href={item.url} title={item.title} target="_blank" rel="noreferrer"
              className="p-2 transition-opacity hover:opacity-75">
