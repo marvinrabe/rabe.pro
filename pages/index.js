@@ -37,10 +37,10 @@ export default function Home () {
         <img src="/me.png" alt="" className="rounded-full w-24 lg:w-32 h-24 lg:h-32 relative z-10 shadow" />
         <img src="/me.png" alt="" className="rounded-full w-24 lg:w-32 h-24 lg:h-32 absolute bottom-0 inset-x-0 transform scale-90 filter blur" />
       </div>
-      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100 mt-12">
+      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-900 dark:text-gray-50 mt-12 mb-6">
         Hello, I'm Marvin.
       </h1>
-      <p className="text-xl lg:text-2xl font-light font-serif my-12 text-gray-700 dark:text-gray-200">
+      <p className="text-xl lg:text-2xl font-light mb-12 text-gray-500 dark:text-gray-400">
         Laravel&nbsp;Developer
         @&nbsp;<a href="https://nueprice.com/" target="_blank" rel="noopener"
                   className='underline hover:no-underline transition-opacity hover:opacity-75'>nueprice&nbsp;GmbH</a>
