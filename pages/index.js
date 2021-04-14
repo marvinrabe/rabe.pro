@@ -34,14 +34,14 @@ export default function Home () {
         <meta name="description" content="Marvin Rabe is a Laravel Developer."/>
       </Head>
 
-      <div className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100">
-        Hello, I'm Marvin!
-      </div>
-      <div className="text-xl lg:text-2xl font-light font-serif my-8 text-gray-700 dark:text-gray-200">
+      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100">
+        Hello, I'm Marvin.
+      </h1>
+      <p className="text-xl lg:text-2xl font-light font-serif my-8 text-gray-700 dark:text-gray-200">
         Laravel&nbsp;Developer
         @&nbsp;<a href="https://nueprice.com/" target="_blank" rel="noopener"
                   className='underline hover:no-underline transition-opacity hover:opacity-75'>nueprice&nbsp;GmbH</a>
-      </div>
+      </p>
       <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-4">
         {socialLinks.map((item, index) => (
           <a key={index} href={item.url} title={item.title} target="_blank" rel="noreferrer"
