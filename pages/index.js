@@ -33,11 +33,14 @@ export default function Home () {
         <title>Marvin Rabe | Laravel Developer</title>
         <meta name="description" content="Marvin Rabe is a Laravel Developer."/>
       </Head>
-
-      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100">
+      <div className="relative">
+        <img src="/me.png" alt="" className="rounded-full w-24 lg:w-32 h-24 lg:h-32 relative z-10 shadow" />
+        <img src="/me.png" alt="" className="rounded-full w-24 lg:w-32 h-24 lg:h-32 absolute bottom-0 inset-x-0 transform scale-90 filter blur" />
+      </div>
+      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-100 mt-12">
         Hello, I'm Marvin.
       </h1>
-      <p className="text-xl lg:text-2xl font-light font-serif my-8 text-gray-700 dark:text-gray-200">
+      <p className="text-xl lg:text-2xl font-light font-serif my-12 text-gray-700 dark:text-gray-200">
         Laravel&nbsp;Developer
         @&nbsp;<a href="https://nueprice.com/" target="_blank" rel="noopener"
                   className='underline hover:no-underline transition-opacity hover:opacity-75'>nueprice&nbsp;GmbH</a>
