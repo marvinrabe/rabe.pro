@@ -8,13 +8,13 @@ class MyDocument extends Document {
 
   render () {
     return (
-      <Html lang="en" className="min-h-full">
+      <Html lang="en">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
           <script async defer data-domain="rabe.pro" src="https://stats.rabe.pro/js/index.js"/>
         </Head>
-        <body className="min-h-full bg-gray-200 dark:bg-gray-800">
+        <body className="bg-gray-200 dark:bg-gray-800">
         <Main/>
         <NextScript/>
         </body>
