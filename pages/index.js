@@ -33,12 +33,8 @@ export default function Home () {
         <title>Marvin Rabe | Laravel Developer</title>
         <meta name="description" content="Marvin Rabe is a Laravel Developer."/>
       </Head>
-      <div className="relative">
-        <img src="/me.png" alt="" className="rounded-full w-24 lg:w-32 h-24 lg:h-32 relative z-10 shadow"/>
-        <img src="/me.png" alt=""
-             className="rounded-full w-24 lg:w-32 h-24 lg:h-32 absolute bottom-0 inset-x-0 transform scale-90 filter blur"/>
-      </div>
-      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-900 dark:text-gray-50 mt-12 mb-6">
+      <img src="/me.png" height="128" width="128" alt="Marvins face" className="rounded-full shadow-sm"/>
+      <h1 className="text-4xl lg:text-6xl font-bold font-serif text-gray-800 dark:text-gray-50 mt-12 mb-6">
         Hello, I'm Marvin.
       </h1>
       <p className="text-xl lg:text-2xl font-light mb-12 text-gray-500 dark:text-gray-400">

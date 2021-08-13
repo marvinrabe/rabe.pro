@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
           <script async defer data-domain="rabe.pro" src="https://stats.rabe.pro/js/index.js"/>
         </Head>
-        <body className="bg-gray-200 dark:bg-gray-800">
+        <body className="bg-gray-100 dark:bg-gray-800">
         <Main/>
         <NextScript/>
         </body>
