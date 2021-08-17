@@ -12,7 +12,6 @@ class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
-          <script defer data-domain="rabe.pro" src="https://plausible.io/js/plausible.js"></script>
         </Head>
         <body className="bg-gray-100 dark:bg-gray-800">
         <Main/>
