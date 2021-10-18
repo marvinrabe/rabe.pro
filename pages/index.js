@@ -11,11 +11,6 @@ export default function Home () {
       icon: faGithub
     },
     {
-      title: 'Twitter',
-      url: 'https://twitter.com/marvin_rabe',
-      icon: faTwitter
-    },
-    {
       title: 'DEV',
       url: 'https://dev.to/marvinrabe',
       icon: faDev
