@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faDev, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMastodon, faTwitter, faDev, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home () {
   const socialLinks = [
@@ -9,6 +9,11 @@ export default function Home () {
       title: 'Github',
       url: 'https://github.com/marvinrabe',
       icon: faGithub
+    },
+    {
+      title: 'Mastodon',
+      url: 'https://phpc.social/@rabe',
+      icon: faMastodon
     },
     {
       title: 'DEV',
@@ -42,7 +47,7 @@ export default function Home () {
       </p>
       <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-4">
         {socialLinks.map((item, index) => (
-          <a key={index} href={item.url} title={item.title} rel="noreferrer"
+          <a key={index} href={item.url} title={item.title} rel="me noreferrer"
              className="p-2 transition-opacity hover:opacity-75">
             <FontAwesomeIcon icon={item.icon} fixedWidth/>
           </a>
