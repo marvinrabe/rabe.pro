@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet"/>
+          <script defer data-domain="rabe.pro" data-api="/stats/event" src="/stats/script.js"></script>
         </Head>
         <body className="bg-gray-100 dark:bg-gray-800">
         <Main/>
