@@ -7,3 +7,13 @@ body,
 #__next {
   height: 100%;
 }
+
+.project {
+  box-shadow: 0 6px 0 0 #3f3f46;
+  @apply bg-zinc-600 rounded-lg border-2 border-zinc-700;
+}
+
+.project:hover {
+  @apply border-amber-500;
+  box-shadow: 0 6px 0 0 #f59e0b;
+}
