@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faMastodon, faTwitter, faDev, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faDev, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home () {
   const socialLinks = [
