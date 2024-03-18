@@ -30,7 +30,7 @@ export default function Home () {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <Head>
-        <title>Marvin Rabe | Laravel Developer</title>
+        <title>Marvin Rabe | Software Developer</title>
         <meta name="description" content="Marvin Rabe is a Laravel Developer."/>
       </Head>
       <img src="/me.png" height="128" width="128" alt="Marvins face" className="rounded-full shadow-sm"/>
@@ -38,12 +38,7 @@ export default function Home () {
         Hello, I'm Marvin.
       </h1>
       <p className="text-xl lg:text-2xl font-light mb-12 text-gray-500 dark:text-gray-400">
-        <span className="whitespace-nowrap">Laravel Developer</span>
-        <span> </span>
-        <span className="whitespace-nowrap">
-          @ <a href="https://nueprice.com/" rel="noopener"
-               className="underline hover:no-underline transition-opacity hover:opacity-75">nueprice GmbH</a>
-        </span>
+        <span className="whitespace-nowrap">Software Developer</span>
       </p>
       <div className="text-3xl lg:text-5xl text-gray-700 dark:text-gray-200 grid grid-flow-col items-center gap-4">
         {socialLinks.map((item, index) => (
