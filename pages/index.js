@@ -11,9 +11,9 @@ export default function Home () {
       icon: faGithub
     },
     {
-      title: 'Mastodon',
-      url: 'https://phpc.social/@rabe',
-      icon: faMastodon
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/marvinrabe/',
+      icon: faLinkedin
     },
     {
       title: 'DEV',
