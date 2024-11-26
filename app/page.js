@@ -26,21 +26,6 @@ export default function Home () {
   ]
 
   let projects = [
-    {
-      title: 'flugschulen.net',
-      url: 'https://flugschulen.net',
-      description: ''
-    },
-    {
-      title: 'fliegerei.blog',
-      url: 'https://fliegerei.blog',
-      description: ''
-    },
-    {
-      title: 'natoalphabet.com',
-      url: 'https://natoalphabet.com',
-      description: ''
-    }
   ]
 
   return (
