@@ -25,9 +25,6 @@ export default function Home () {
     },
   ]
 
-  let projects = [
-  ]
-
   return (
     <main className="flex flex-col items-center justify-center min-h-full p-8 text-center">
       <img src="/me.jpg" height="128" width="128" alt="Marvins face"
@@ -47,22 +44,6 @@ export default function Home () {
           </a>
         ))}
       </div>
-      <h2 className="text-2xl lg:text-4xl font-bold font-serif text-zinc-50 mt-16 mb-4">My Projects</h2>
-      <div className="bg-gradient-to-br from-amber-400 to-orange-600 rounded-full h-[4px] w-32 mb-8 block">
-        &nbsp;
-      </div>
-      <ul className="mx-auto container flex flex-wrap justify-center gap-6 max-w-[1200px]">
-        {projects.map((item) => (
-          <li>
-            <a href={item.url} target="_blank"
-               className="project flex items-end justify-start h-32 w-[330px] max-w-[330px]">
-            <span className="block text-zinc-50 font-bold tracking-wide text-left p-4">
-              {item.title}
-            </span>
-            </a>
-          </li>
-        ))}
-      </ul>
     </main>
   )
 }
