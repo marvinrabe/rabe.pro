@@ -9,11 +9,6 @@ export default function Home () {
       icon: faGithub
     },
     {
-      title: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/marvinrabe/',
-      icon: faLinkedin
-    },
-    {
       title: 'DEV',
       url: 'https://dev.to/marvinrabe',
       icon: faDev
