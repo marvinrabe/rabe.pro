@@ -9,11 +9,6 @@ export default function Home () {
       icon: faGithub
     },
     {
-      title: 'DEV',
-      url: 'https://dev.to/marvinrabe',
-      icon: faDev
-    },
-    {
       title: 'Stack Overflow',
       url: 'https://stackoverflow.com/users/565323/marvin-rabe',
       icon: faStackOverflow
